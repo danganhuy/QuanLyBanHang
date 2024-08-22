@@ -28,65 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.picTop1 = new System.Windows.Forms.PictureBox();
+            this.picTop2 = new System.Windows.Forms.PictureBox();
+            this.picTop3 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lblSpTop3 = new System.Windows.Forms.Label();
+            this.lblSpTop2 = new System.Windows.Forms.Label();
+            this.lblSpTop1 = new System.Windows.Forms.Label();
+            this.picSpTop3 = new System.Windows.Forms.PictureBox();
+            this.picSpTop2 = new System.Windows.Forms.PictureBox();
+            this.picSpTop1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.lblNVTop3 = new System.Windows.Forms.Label();
+            this.lblNVTop1 = new System.Windows.Forms.Label();
+            this.lblNVTop2 = new System.Windows.Forms.Label();
+            this.lblTieuDe = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picTop1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTop2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTop3)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSpTop3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSpTop2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSpTop1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // picTop1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pictureBox1.Location = new System.Drawing.Point(350, 152);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(212, 279);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.picTop1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.picTop1.Location = new System.Drawing.Point(350, 284);
+            this.picTop1.Name = "picTop1";
+            this.picTop1.Size = new System.Drawing.Size(212, 279);
+            this.picTop1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTop1.TabIndex = 0;
+            this.picTop1.TabStop = false;
             // 
-            // pictureBox2
+            // picTop2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pictureBox2.Location = new System.Drawing.Point(84, 268);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(205, 245);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.picTop2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.picTop2.Location = new System.Drawing.Point(84, 400);
+            this.picTop2.Name = "picTop2";
+            this.picTop2.Size = new System.Drawing.Size(205, 245);
+            this.picTop2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTop2.TabIndex = 1;
+            this.picTop2.TabStop = false;
             // 
-            // pictureBox3
+            // picTop3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pictureBox3.Location = new System.Drawing.Point(606, 281);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(205, 245);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.picTop3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.picTop3.Location = new System.Drawing.Point(606, 469);
+            this.picTop3.Name = "picTop3";
+            this.picTop3.Size = new System.Drawing.Size(205, 245);
+            this.picTop3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTop3.TabIndex = 2;
+            this.picTop3.TabStop = false;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.pictureBox6);
-            this.groupBox1.Controls.Add(this.pictureBox5);
-            this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.lblSpTop3);
+            this.groupBox1.Controls.Add(this.lblSpTop2);
+            this.groupBox1.Controls.Add(this.lblSpTop1);
+            this.groupBox1.Controls.Add(this.picSpTop3);
+            this.groupBox1.Controls.Add(this.picSpTop2);
+            this.groupBox1.Controls.Add(this.picSpTop1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Red;
@@ -97,65 +101,68 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sản phẩm bán chạy";
             // 
-            // label4
+            // lblSpTop3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label4.Location = new System.Drawing.Point(62, 499);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(142, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Tên sản phẩm";
+            this.lblSpTop3.AutoSize = true;
+            this.lblSpTop3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.lblSpTop3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.lblSpTop3.Location = new System.Drawing.Point(62, 499);
+            this.lblSpTop3.Name = "lblSpTop3";
+            this.lblSpTop3.Size = new System.Drawing.Size(142, 20);
+            this.lblSpTop3.TabIndex = 5;
+            this.lblSpTop3.Text = "Tên sản phẩm";
             // 
-            // label3
+            // lblSpTop2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label3.Location = new System.Drawing.Point(53, 337);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Tên sản phẩm";
+            this.lblSpTop2.AutoSize = true;
+            this.lblSpTop2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.lblSpTop2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.lblSpTop2.Location = new System.Drawing.Point(53, 337);
+            this.lblSpTop2.Name = "lblSpTop2";
+            this.lblSpTop2.Size = new System.Drawing.Size(142, 20);
+            this.lblSpTop2.TabIndex = 4;
+            this.lblSpTop2.Text = "Tên sản phẩm";
             // 
-            // label2
+            // lblSpTop1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(53, 197);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(142, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Tên sản phẩm";
+            this.lblSpTop1.AutoSize = true;
+            this.lblSpTop1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.lblSpTop1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.lblSpTop1.Location = new System.Drawing.Point(53, 197);
+            this.lblSpTop1.Name = "lblSpTop1";
+            this.lblSpTop1.Size = new System.Drawing.Size(142, 20);
+            this.lblSpTop1.TabIndex = 3;
+            this.lblSpTop1.Text = "Tên sản phẩm";
             // 
-            // pictureBox6
+            // picSpTop3
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pictureBox6.Location = new System.Drawing.Point(67, 378);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(107, 99);
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
+            this.picSpTop3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.picSpTop3.Location = new System.Drawing.Point(67, 378);
+            this.picSpTop3.Name = "picSpTop3";
+            this.picSpTop3.Size = new System.Drawing.Size(107, 99);
+            this.picSpTop3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picSpTop3.TabIndex = 2;
+            this.picSpTop3.TabStop = false;
             // 
-            // pictureBox5
+            // picSpTop2
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pictureBox5.Location = new System.Drawing.Point(67, 225);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(107, 99);
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.picSpTop2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.picSpTop2.Location = new System.Drawing.Point(67, 225);
+            this.picSpTop2.Name = "picSpTop2";
+            this.picSpTop2.Size = new System.Drawing.Size(107, 99);
+            this.picSpTop2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picSpTop2.TabIndex = 1;
+            this.picSpTop2.TabStop = false;
             // 
-            // pictureBox4
+            // picSpTop1
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.pictureBox4.Location = new System.Drawing.Point(67, 76);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(107, 99);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.picSpTop1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.picSpTop1.Location = new System.Drawing.Point(67, 76);
+            this.picSpTop1.Name = "picSpTop1";
+            this.picSpTop1.Size = new System.Drawing.Size(107, 99);
+            this.picSpTop1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picSpTop1.TabIndex = 0;
+            this.picSpTop1.TabStop = false;
             // 
             // label1
             // 
@@ -163,47 +170,57 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(35, 33);
+            this.label1.Location = new System.Drawing.Point(38, 163);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(314, 38);
             this.label1.TabIndex = 4;
             this.label1.Text = "Nhân viên xuất sắc";
             // 
-            // label5
+            // lblNVTop3
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label5.Location = new System.Drawing.Point(647, 243);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(143, 20);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Tên nhân viên";
+            this.lblNVTop3.AutoSize = true;
+            this.lblNVTop3.BackColor = System.Drawing.Color.Transparent;
+            this.lblNVTop3.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.lblNVTop3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.lblNVTop3.Location = new System.Drawing.Point(602, 437);
+            this.lblNVTop3.Name = "lblNVTop3";
+            this.lblNVTop3.Size = new System.Drawing.Size(143, 20);
+            this.lblNVTop3.TabIndex = 5;
+            this.lblNVTop3.Text = "Tên nhân viên";
             // 
-            // label6
+            // lblNVTop1
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label6.Location = new System.Drawing.Point(391, 118);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(143, 20);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Tên nhân viên";
+            this.lblNVTop1.AutoSize = true;
+            this.lblNVTop1.BackColor = System.Drawing.Color.Transparent;
+            this.lblNVTop1.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.lblNVTop1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.lblNVTop1.Location = new System.Drawing.Point(346, 249);
+            this.lblNVTop1.Name = "lblNVTop1";
+            this.lblNVTop1.Size = new System.Drawing.Size(143, 20);
+            this.lblNVTop1.TabIndex = 6;
+            this.lblNVTop1.Text = "Tên nhân viên";
             // 
-            // label7
+            // lblNVTop2
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label7.Location = new System.Drawing.Point(115, 225);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(143, 20);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Tên nhân viên";
+            this.lblNVTop2.AutoSize = true;
+            this.lblNVTop2.BackColor = System.Drawing.Color.Transparent;
+            this.lblNVTop2.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold);
+            this.lblNVTop2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.lblNVTop2.Location = new System.Drawing.Point(80, 357);
+            this.lblNVTop2.Name = "lblNVTop2";
+            this.lblNVTop2.Size = new System.Drawing.Size(143, 20);
+            this.lblNVTop2.TabIndex = 7;
+            this.lblNVTop2.Text = "Tên nhân viên";
+            // 
+            // lblTieuDe
+            // 
+            this.lblTieuDe.AutoSize = true;
+            this.lblTieuDe.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTieuDe.Location = new System.Drawing.Point(12, 37);
+            this.lblTieuDe.Name = "lblTieuDe";
+            this.lblTieuDe.Size = new System.Drawing.Size(647, 42);
+            this.lblTieuDe.TabIndex = 8;
+            this.lblTieuDe.Text = " Chào Mừng Đến Với 2HAND SHOP";
             // 
             // FrmMain
             // 
@@ -213,25 +230,27 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1069, 742);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblTieuDe);
+            this.Controls.Add(this.lblNVTop2);
+            this.Controls.Add(this.lblNVTop1);
+            this.Controls.Add(this.lblNVTop3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picTop3);
+            this.Controls.Add(this.picTop2);
+            this.Controls.Add(this.picTop1);
             this.ForeColor = System.Drawing.Color.Cornsilk;
             this.Name = "FrmMain";
             this.Text = "FrmMain";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.Load += new System.EventHandler(this.FrmMain_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picTop1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTop2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTop3)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSpTop3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSpTop2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSpTop1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -239,19 +258,20 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox picTop1;
+        private System.Windows.Forms.PictureBox picTop2;
+        private System.Windows.Forms.PictureBox picTop3;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label lblSpTop3;
+        private System.Windows.Forms.Label lblSpTop2;
+        private System.Windows.Forms.Label lblSpTop1;
+        private System.Windows.Forms.PictureBox picSpTop3;
+        private System.Windows.Forms.PictureBox picSpTop2;
+        private System.Windows.Forms.PictureBox picSpTop1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblNVTop3;
+        private System.Windows.Forms.Label lblNVTop1;
+        private System.Windows.Forms.Label lblNVTop2;
+        private System.Windows.Forms.Label lblTieuDe;
     }
 }

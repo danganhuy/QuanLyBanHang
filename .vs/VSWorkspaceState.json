@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\btl_QLBanHang",
+    "\\btl_QLBanHang\\FormBTL",
     "\\btl_QLBanHang\\Properties"
   ],
-  "SelectedNode": "\\btl_QLBanHang\\Properties\\Resources.resx",
+  "SelectedNode": "\\btl_QLBanHang\\FormBTL\\KhachHang.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -77,7 +77,7 @@ namespace btl_QLBanHang
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            staticdata.check = 0;
             Application.Exit();
         }
 
@@ -120,6 +120,11 @@ namespace btl_QLBanHang
         private void lblForgotPassword_MouseMove(object sender, MouseEventArgs e)
         {
             lblForgotPassword.ForeColor = Color.White;
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

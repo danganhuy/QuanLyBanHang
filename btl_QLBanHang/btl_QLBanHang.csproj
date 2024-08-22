@@ -53,6 +53,9 @@
   <ItemGroup>
     <Compile Include="Classes\CommonFunction.cs" />
     <Compile Include="Classes\ConnectData.cs" />
+    <Compile Include="Classes\MyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="FormBTL\ChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,10 +128,10 @@
     <Compile Include="FormBTL\RecoverPassword.Designer.cs">
       <DependentUpon>RecoverPassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBTL\SanPham\TimKiemSP.cs">
+    <Compile Include="FormBTL\TimKiemSP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBTL\SanPham\TimKiemSP.Designer.cs">
+    <Compile Include="FormBTL\TimKiemSP.Designer.cs">
       <DependentUpon>TimKiemSP.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
@@ -145,10 +148,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FormBTL\SanPham\SanPham.cs">
+    <Compile Include="FormBTL\SanPham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBTL\SanPham\SanPham.Designer.cs">
+    <Compile Include="FormBTL\SanPham.Designer.cs">
       <DependentUpon>SanPham.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBTL\TrangChu.cs">
@@ -193,7 +196,7 @@
     <EmbeddedResource Include="FormBTL\RecoverPassword.resx">
       <DependentUpon>RecoverPassword.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBTL\SanPham\TimKiemSP.resx">
+    <EmbeddedResource Include="FormBTL\TimKiemSP.resx">
       <DependentUpon>TimKiemSP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
@@ -207,7 +210,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBTL\SanPham\SanPham.resx">
+    <EmbeddedResource Include="FormBTL\SanPham.resx">
       <DependentUpon>SanPham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBTL\TrangChu.resx">
@@ -362,6 +365,45 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\addwhite.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\addnew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\addnewwww.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\editnew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\removenew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\printnew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\skipnew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\savenew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\cancelnew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\detailnew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icon_button\searchnew.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

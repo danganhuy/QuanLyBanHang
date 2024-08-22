@@ -73,6 +73,8 @@ namespace btl_QLBanHang
 
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
+            lblTenNhanVien.Text = staticdata.TenNV;
+            AvatarUser.Image = Image.FromFile(Application.StartupPath + "\\Images\\AvatarNV\\" + staticdata.LinkAvt);
             pnlNav.Height = btnTrangChu.Height;
             pnlNav.Top = btnTrangChu.Top;
             pnlNav.Left = btnTrangChu.Left;
@@ -151,6 +153,11 @@ namespace btl_QLBanHang
         {
             Button btn = sender as Button;
             btn.BackColor = Color.FromArgb(24, 30, 54);
+        }
+
+        private void AvatarUser_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -6,15 +6,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.SqlServer.Server;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace QLBH.Classes
 {
-    internal class ConnectData
+     class ConnectData
     {
-        // đường dẫn kết nối tới cơ sở dữ liệu
-        string strConnect = "Data Source=LAPTOP-LGFDQT7E\\MSSQLSERVER03;Initial Catalog=BTL_LTTQ_BanQuanAo;Integrated Security=True";
-        SqlConnection sqlConn = null;
-        //PT OpenConnect de mo ket noi
+
+        string strConnect = @"Data Source=DESKTOP-HU50TNN\SQLEXPRESS;Initial Catalog=BTL_BanQuanAo;Integrated Security=True";
+        public static SqlConnection sqlConn = null;
+        //PT OpenConnect de mo ket noi 
         void OpenConnect()
         {
             sqlConn = new SqlConnection(strConnect);
@@ -30,6 +32,7 @@ namespace QLBH.Classes
                 sqlConn.Dispose();
             }
         }
+
         //PT thực hiện truy vấn dữ liệu trả về DataTable su dung DataAdapter
         public DataTable ReadData(string sqlSelect)
         {
@@ -62,12 +65,35 @@ namespace QLBH.Classes
             sqlcommand.Dispose();
         }
 
+        //Hàm kiểm tra khoá trùng
+        public static bool CheckKey(string sql)
+        {
+            DataTable table = new DataTable();
+            
+            SqlDataAdapter dap = new SqlDataAdapter(sql, sqlConn);
+            
+            dap.Fill(table);
+            if (table.Rows.Count > 0)
+                return true;
+            else return false;
+            
+        }
+
+
+
+
+
     }
+   
     class staticdata
     {
         public static string userName = "";
         public static string LinkAvt = "";
         public static string TenNV = "";
         public static string To;
+        public static string gt;
+        public static string MaHDN = "";
+        public static string MaHDB = "";
+        public static int check = 1;
     }
 }

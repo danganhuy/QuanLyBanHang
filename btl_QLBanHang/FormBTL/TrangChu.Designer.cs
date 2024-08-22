@@ -84,6 +84,7 @@ namespace btl_QLBanHang
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(271, 900);
             this.panel2.TabIndex = 3;
@@ -102,17 +103,19 @@ namespace btl_QLBanHang
             this.panel3.Controls.Add(this.btnTrangChu);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(0, 205);
+            this.panel3.Location = new System.Drawing.Point(0, 206);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(271, 695);
+            this.panel3.Size = new System.Drawing.Size(271, 694);
             this.panel3.TabIndex = 6;
             // 
             // pnlNav
             // 
             this.pnlNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.pnlNav.Location = new System.Drawing.Point(6, 141);
+            this.pnlNav.Location = new System.Drawing.Point(5, 142);
+            this.pnlNav.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlNav.Name = "pnlNav";
-            this.pnlNav.Size = new System.Drawing.Size(4, 200);
+            this.pnlNav.Size = new System.Drawing.Size(4, 199);
             this.pnlNav.TabIndex = 8;
             // 
             // btnDoanhThu
@@ -123,8 +126,9 @@ namespace btl_QLBanHang
             this.btnDoanhThu.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoanhThu.Image = ((System.Drawing.Image)(resources.GetObject("btnDoanhThu.Image")));
             this.btnDoanhThu.Location = new System.Drawing.Point(3, 402);
+            this.btnDoanhThu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDoanhThu.Name = "btnDoanhThu";
-            this.btnDoanhThu.Size = new System.Drawing.Size(268, 61);
+            this.btnDoanhThu.Size = new System.Drawing.Size(268, 62);
             this.btnDoanhThu.TabIndex = 7;
             this.btnDoanhThu.Text = "Doanh Thu";
             this.btnDoanhThu.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -139,8 +143,9 @@ namespace btl_QLBanHang
             this.btnHoaDon.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHoaDon.Image = ((System.Drawing.Image)(resources.GetObject("btnHoaDon.Image")));
             this.btnHoaDon.Location = new System.Drawing.Point(3, 335);
+            this.btnHoaDon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHoaDon.Name = "btnHoaDon";
-            this.btnHoaDon.Size = new System.Drawing.Size(268, 61);
+            this.btnHoaDon.Size = new System.Drawing.Size(268, 62);
             this.btnHoaDon.TabIndex = 6;
             this.btnHoaDon.Text = "Hóa Đơn";
             this.btnHoaDon.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -155,8 +160,9 @@ namespace btl_QLBanHang
             this.btnDangXuat.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnDangXuat.Image")));
             this.btnDangXuat.Location = new System.Drawing.Point(0, 534);
+            this.btnDangXuat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(268, 61);
+            this.btnDangXuat.Size = new System.Drawing.Size(268, 62);
             this.btnDangXuat.TabIndex = 5;
             this.btnDangXuat.Text = "Đăng Xuất";
             this.btnDangXuat.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -170,8 +176,9 @@ namespace btl_QLBanHang
             this.btnKhuyenMai.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKhuyenMai.Image = ((System.Drawing.Image)(resources.GetObject("btnKhuyenMai.Image")));
             this.btnKhuyenMai.Location = new System.Drawing.Point(3, 268);
+            this.btnKhuyenMai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKhuyenMai.Name = "btnKhuyenMai";
-            this.btnKhuyenMai.Size = new System.Drawing.Size(268, 61);
+            this.btnKhuyenMai.Size = new System.Drawing.Size(268, 62);
             this.btnKhuyenMai.TabIndex = 4;
             this.btnKhuyenMai.Text = "Khuyến Mại";
             this.btnKhuyenMai.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -186,8 +193,9 @@ namespace btl_QLBanHang
             this.btnSanPham.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSanPham.Image = ((System.Drawing.Image)(resources.GetObject("btnSanPham.Image")));
             this.btnSanPham.Location = new System.Drawing.Point(3, 201);
+            this.btnSanPham.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSanPham.Name = "btnSanPham";
-            this.btnSanPham.Size = new System.Drawing.Size(268, 61);
+            this.btnSanPham.Size = new System.Drawing.Size(268, 62);
             this.btnSanPham.TabIndex = 3;
             this.btnSanPham.Text = "Sản Phẩm";
             this.btnSanPham.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -202,8 +210,9 @@ namespace btl_QLBanHang
             this.btnKhachHang.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKhachHang.Image = ((System.Drawing.Image)(resources.GetObject("btnKhachHang.Image")));
             this.btnKhachHang.Location = new System.Drawing.Point(3, 134);
+            this.btnKhachHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKhachHang.Name = "btnKhachHang";
-            this.btnKhachHang.Size = new System.Drawing.Size(268, 61);
+            this.btnKhachHang.Size = new System.Drawing.Size(268, 62);
             this.btnKhachHang.TabIndex = 2;
             this.btnKhachHang.Text = "Khách Hàng";
             this.btnKhachHang.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -217,9 +226,10 @@ namespace btl_QLBanHang
             this.btnNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNhanVien.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanVien.Image = ((System.Drawing.Image)(resources.GetObject("btnNhanVien.Image")));
-            this.btnNhanVien.Location = new System.Drawing.Point(3, 67);
+            this.btnNhanVien.Location = new System.Drawing.Point(3, 66);
+            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNhanVien.Name = "btnNhanVien";
-            this.btnNhanVien.Size = new System.Drawing.Size(268, 61);
+            this.btnNhanVien.Size = new System.Drawing.Size(268, 62);
             this.btnNhanVien.TabIndex = 1;
             this.btnNhanVien.Text = "Nhân Viên";
             this.btnNhanVien.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -234,8 +244,9 @@ namespace btl_QLBanHang
             this.btnTrangChu.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrangChu.Image = ((System.Drawing.Image)(resources.GetObject("btnTrangChu.Image")));
             this.btnTrangChu.Location = new System.Drawing.Point(3, 0);
+            this.btnTrangChu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTrangChu.Name = "btnTrangChu";
-            this.btnTrangChu.Size = new System.Drawing.Size(268, 61);
+            this.btnTrangChu.Size = new System.Drawing.Size(268, 62);
             this.btnTrangChu.TabIndex = 0;
             this.btnTrangChu.Text = "Trang Chủ";
             this.btnTrangChu.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -250,8 +261,9 @@ namespace btl_QLBanHang
             this.panel1.Controls.Add(this.AvatarUser);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(271, 205);
+            this.panel1.Size = new System.Drawing.Size(271, 206);
             this.panel1.TabIndex = 5;
             // 
             // lblTenNhanVien
@@ -259,7 +271,7 @@ namespace btl_QLBanHang
             this.lblTenNhanVien.AutoSize = true;
             this.lblTenNhanVien.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenNhanVien.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.lblTenNhanVien.Location = new System.Drawing.Point(50, 161);
+            this.lblTenNhanVien.Location = new System.Drawing.Point(51, 161);
             this.lblTenNhanVien.Name = "lblTenNhanVien";
             this.lblTenNhanVien.Size = new System.Drawing.Size(106, 25);
             this.lblTenNhanVien.TabIndex = 5;
@@ -268,11 +280,13 @@ namespace btl_QLBanHang
             // AvatarUser
             // 
             this.AvatarUser.Location = new System.Drawing.Point(68, 12);
+            this.AvatarUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AvatarUser.Name = "AvatarUser";
             this.AvatarUser.Size = new System.Drawing.Size(129, 114);
             this.AvatarUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.AvatarUser.TabIndex = 0;
             this.AvatarUser.TabStop = false;
+            this.AvatarUser.Click += new System.EventHandler(this.AvatarUser_Click);
             // 
             // contextMenuStrip1
             // 
@@ -308,19 +322,21 @@ namespace btl_QLBanHang
             this.panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel.Location = new System.Drawing.Point(271, 0);
+            this.panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(1211, 900);
+            this.panel.Size = new System.Drawing.Size(1212, 900);
             this.panel.TabIndex = 6;
             // 
             // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1482, 900);
+            this.ClientSize = new System.Drawing.Size(1483, 900);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.panel2);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangChu";
